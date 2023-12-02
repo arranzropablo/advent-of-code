@@ -1,3 +1,3 @@
-fun main(args: Array<String>) {
-    one.Cubes.getCubesResult()
+fun main() {
+    one.Cubes.getCubesResultPartTwo()
 }
