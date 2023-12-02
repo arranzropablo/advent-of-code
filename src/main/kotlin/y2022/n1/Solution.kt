@@ -6,7 +6,7 @@ object Solution {
 
     fun part2(inputLines: List<String>): Int = getCaloriesPerElf(inputLines).subList(0, 3).sum()
 
-    fun getCaloriesPerElf(inputLines: List<String>): List<Int> {
+    private fun getCaloriesPerElf(inputLines: List<String>): List<Int> {
         val elvesInventory = inputLines.joinToString(separator=",").split(",,")
 
         return elvesInventory.map { inventory ->
