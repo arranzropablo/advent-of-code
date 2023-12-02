@@ -8,7 +8,7 @@ object Cubes {
     private const val maxBlue = 14
     private const val maxGreen = 13
 
-    private const val basePath = "src/main/resources/two"
+    private const val basePath = "src/main/resources/y2023/two"
     private const val inputFilePath = "$basePath/input"
 
     fun getCubesResultPartTwo() {

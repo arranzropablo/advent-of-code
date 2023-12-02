@@ -1,9 +1,9 @@
-package one
+package y2023.one
 
 import java.io.File
 
 object Trebuchet {
-    private const val basePath = "src/main/resources/one"
+    private const val basePath = "src/main/resources/y2023/one"
     private const val inputFilePath = "$basePath/input"
     private const val cleanFilePath = "$basePath/clean-input"
 
@@ -28,8 +28,8 @@ object Trebuchet {
             //some overlapping as in eighthree it will result in eighthree -> eighthree3three -> eight8eigthree3three
             //took the idea from https://www.reddit.com/r/adventofcode/comments/1885c33/comment/kbjaygo/?utm_source=share&utm_medium=web2x&context=3
             //I tried doing it with a recursive function replacing from the beginning the substrings but was having a problem somewhere
-            modifiedLine = modifiedLine.replace("one", "one1one")
-            modifiedLine = modifiedLine.replace("two", "two2two")
+            modifiedLine = modifiedLine.replace("y2023/one", "one1one")
+            modifiedLine = modifiedLine.replace("y2023/two", "two2two")
             modifiedLine = modifiedLine.replace("three", "three3three")
             modifiedLine = modifiedLine.replace("four", "four4four")
             modifiedLine = modifiedLine.replace("five", "five5five")
