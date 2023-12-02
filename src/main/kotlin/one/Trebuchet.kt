@@ -4,8 +4,8 @@ import java.io.File
 
 object Trebuchet {
     private const val basePath = "src/main/resources/one"
-    private const val inputFilePath = "$basePath/calibration-input"
-    private const val cleanFilePath = "$basePath/clean-calibration-input"
+    private const val inputFilePath = "$basePath/input"
+    private const val cleanFilePath = "$basePath/clean-input"
 
     fun getCalibrationValuesSumPartOne() {
         getCalibrationValuesSum(inputFilePath)
