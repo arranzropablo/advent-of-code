@@ -2,7 +2,7 @@ import java.io.File
 
 fun main() {
     val problemYear = 2023
-    val problemNumber = 4
+    val problemNumber = 5
     val part = 2
     val basePath = "src/main/resources/y$problemYear/n$problemNumber"
     val inputFilePath = "$basePath/input"
